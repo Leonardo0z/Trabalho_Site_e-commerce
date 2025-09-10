@@ -1,0 +1,16 @@
+/* style_imagem.css */
+.inicio .imagem {
+    background-image: url('../img/bar-interior.jpg');
+}
+
+.imagem-destaque.chopp {
+    background-image: url('../img/chopp.jpg');
+}
+
+.imagem-destaque.porcao {
+    background-image: url('../img/bolinho.jpg');
+}
+
+.imagem-destaque.dose {
+    background-image: url('../img/whisky.jpg');
+}

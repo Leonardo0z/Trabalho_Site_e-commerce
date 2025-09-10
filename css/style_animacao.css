@@ -1,0 +1,60 @@
+/* style_animacao.css */
+.produto {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.btn,
+button {
+    transition: all 0.3s ease;
+}
+
+.btn:hover,
+button:hover {
+    transform: scale(1.05);
+}
+
+nav a {
+    position: relative;
+    padding: 5px 0;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f2c94c;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.inicio,
+.destaques,
+.sobre section,
+.formulario-contato,
+.informacoes-contato,
+.categoria {
+    animation: fadeIn 1s ease-out;
+}

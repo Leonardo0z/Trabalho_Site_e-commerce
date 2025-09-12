@@ -8,16 +8,6 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
-.btn,
-button {
-    transition: all 0.3s ease;
-}
-
-.btn:hover,
-button:hover {
-    transform: scale(1.05);
-}
-
 nav a {
     position: relative;
     padding: 5px 0;

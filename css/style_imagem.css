@@ -1,6 +1,18 @@
-/* style_imagem.css */
+/*Imagens*/
 .inicio .imagem {
     background-image: url('../img/bar-interior.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin: 2%;
+    width: 50%;
+    height: 80%;
+}
+
+.imagem-destaque {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
 }
 
 .imagem-destaque.chopp {

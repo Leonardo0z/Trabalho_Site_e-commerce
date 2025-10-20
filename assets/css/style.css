@@ -1,6 +1,8 @@
 /*importações*/
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Cabin:ital,wght@0,400..700;1,400..700&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
 
+/*Aparentemente o import não esta funcionando por motivos desconhecidos, e sinceramente eu não tenho cabeça para tentar arrumar essa misera agora.*/
+
 /*@import url(/assets/style_imagem.css);
 @import url(/assets/style_animacao.css);
 @import url(/assets/css/style_carrosel.css);

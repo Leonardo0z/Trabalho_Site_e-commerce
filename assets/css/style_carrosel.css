@@ -35,15 +35,15 @@
 }
 
 .slide1 {
-    background-image: url('https://images.unsplash.com/photo-1544148103-0773bf10d330?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80');
+    background-image: url('/assets/img/img1.jpg');
 }
 
 .slide2 {
-    background-image: url('https://images.unsplash.com/photo-1572119865084-43c285814d63?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80');
+    background-image: url('/assets/img/img2.jpg');
 }
 
 .slide3 {
-    background-image: url('https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80');
+    background-image: url('/assets/img/img3.jpg');
 }
 
 .carrossel-btn {

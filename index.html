@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bar - O melhor lugar para encontrar amigos e drinks incríveis">
     <meta name="author" content="Leonardo Dos Santos Barreto">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+    <script src="/assets/js/script.js"></script>
     <title>Bar - Home</title>
 </head>
 
@@ -15,7 +16,7 @@
         <nav>
             <ul class="left">
                 <li>
-                    <div class="logo">Bar</div>
+                    <div class="logo">🍺Bar</div>
                 </li>
             </ul>
             <ul class="right">
@@ -23,23 +24,46 @@
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="cardapio.html">Cardápio</a></li>
                 <li><a href="contato.html">Contato</a></li>
+                <li>
+                    <button id="themeToggle" class="theme-toggle">
+                        <span class="theme-icon">🌙</span>
+                        <span class="theme-text">Tema</span>
+                    </button>
+                </li>
             </ul>
         </nav>
 
-        <div class="inicio">
-            <div class="imagem"></div>
-            <div class="descrição_inicial">
-                <h1>Bar</h1>
-                <p>Há mais de 15 anos oferecendo os melhores drinks e petiscos da região. Nosso ambiente é perfeito para
-                    reunir amigos, comemorar datas especiais ou simplesmente relaxar após um longo dia.</p>
-                <p>Trabalhamos com ingredientes selecionados e receitas exclusivas, sempre priorizando a qualidade e o
-                    sabor. Nossa equipe está preparada para oferecer o melhor atendimento e garantir que sua experiência
-                    seja memorável.</p>
-                <p>Além do nosso espaço físico, agora também oferecemos delivery para você aproveitar o sabor autêntico
-                    do Bar no conforto da sua casa.</p>
-                <a href="cardapio.html" class="btn">Ver Cardápio</a>
-            </div>
+        
+
+            <div class="inicio">
+        <div class="carrossel">
+    <div class="carrossel-container">
+        <div class="carrossel-slide active">
+            <div class="imagem-carrossel slide1"></div>
         </div>
+        <div class="carrossel-slide">
+            <div class="imagem-carrossel slide2"></div>
+        </div>
+        <div class="carrossel-slide">
+            <div class="imagem-carrossel slide3"></div>
+        </div>
+    </div>
+    <button class="carrossel-btn prev">&#10094;</button>
+    <button class="carrossel-btn next">&#10095;</button>
+    
+</div>
+        <div class="descrição_inicial">
+            <h1>Bar</h1>
+            <p>Há mais de 15 anos oferecendo os melhores drinks e petiscos da região. Nosso ambiente é perfeito para
+                reunir amigos, comemorar datas especiais ou simplesmente relaxar após um longo dia.</p>
+            <p>Trabalhamos com ingredientes selecionados e receitas exclusivas, sempre priorizando a qualidade e o
+                sabor. Nossa equipe está preparada para oferecer o melhor atendimento e garantir que sua experiência
+                seja memorável.</p>
+            <p>Além do nosso espaço físico, agora também oferecemos delivery para você aproveitar o sabor autêntico
+                do Bar no conforto da sua casa.</p>
+            <a href="cardapio.html" class="btn">Ver Cardápio</a>
+        </div>
+    
     </header>
 
     <main>

@@ -74,15 +74,3 @@
 
 
 
-/* Ajuste para mobile */
-@media (max-width: 768px) {
-    .carrossel {
-        width: 100%;
-        height: 300px;
-    }
-    
-    .carrossel-btn {
-        padding: 10px;
-        font-size: 1.2rem;
-    }
-}

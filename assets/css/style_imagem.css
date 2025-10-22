@@ -1,13 +1,4 @@
 /*Imagens*/
-.inicio .imagem {
-    background-image: url('../img/bar-interior.jpg');
-    background-size: cover;
-    background-position: center;
-    border-radius: 8px;
-    margin: 2%;
-    width: 50%;
-    height: 80%;
-}
 
 .imagem-destaque {
     height: 200px;
@@ -16,13 +7,13 @@
 }
 
 .imagem-destaque.chopp {
-    background-image: url('assets/img/chopp.jpg');
+    background-image: url('/assets/img/chopp.jpg');
 }
 
 .imagem-destaque.porcao {
-    background-image: url('assets/img/bolinho.jpg');
+    background-image: url('/assets/img/bolinho.jpg');
 }
 
 .imagem-destaque.dose {
-    background-image: url('assets/img/whisky.jpg');
+    background-image: url('/assets/img/whisky.jpg');
 }

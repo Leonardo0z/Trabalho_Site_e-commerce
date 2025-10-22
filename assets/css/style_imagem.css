@@ -7,13 +7,13 @@
 }
 
 .imagem-destaque.chopp {
-    background-image: url('../assets/img/chopp.jpg');
+    background-image: url('/assets/img/chopp.jpg');
 }
 
 .imagem-destaque.porcao {
-    background-image: url('../assets/img/bolinho.jpg');
+    background-image: url('/assets/img/bolinho.jpg');
 }
 
 .imagem-destaque.dose {
-    background-image: url('../assets/img/whisky.jpg');
+    background-image: url('/assets/img/whisky.jpg');
 }
